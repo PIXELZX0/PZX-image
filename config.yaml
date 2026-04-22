@@ -1,0 +1,13 @@
+model:
+  model_id: "google/gemma-4-e2b-it"
+  device_map: "auto"
+  dtype: "auto"
+  max_new_tokens: 512
+  do_sample: true
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 64
+
+caption:
+  prompt: "Describe this image in detail."
+  output_extension: ".txt"
